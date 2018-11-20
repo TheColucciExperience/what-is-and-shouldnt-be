@@ -1,0 +1,31 @@
+{
+  "name": "what-is-and-shouldnt-be",
+  "version": "1.0.0",
+  "description": "A history about a boy that is, but shouldnt be",
+  "main": "index.js",
+  "repository": "git@github.com:TheColucciExperience/what-is-and-shouldnt-be.git",
+  "author": "TheColucciExperience <thecolucciexperience@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  }
+}
