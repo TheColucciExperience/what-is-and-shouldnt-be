@@ -2,7 +2,7 @@
   "chapters": [
     {
       "title": "What Is Reality..?",
-      "background": "someFakeBackgroundPath",
+      "background": "./images/nature-sky-sunny-125457.jpg",
       "parts": [
         {
           "title": "My reality is really strange",
@@ -14,7 +14,7 @@
       ]
     }, {
       "title": "Enrolation city..?",
-      "background": "someFakeBackgroundPath",
+      "background": "./images/nature-sky-sunny-125457.jpg",
       "parts": [
         {
           "title": "My reality enrolation city",

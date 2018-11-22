@@ -39,7 +39,7 @@ module.exports = {
       template: './src/index.jade'
     } ),
     new CopyWebpackPlugin( [
-      { from: './src/images/', to: './images' }
+      { from: 'src/images/', to: 'images' }
     ] )
   ]
 }
