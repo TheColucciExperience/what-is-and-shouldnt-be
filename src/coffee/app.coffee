@@ -1,2 +1,3 @@
 
-window.console.log 'coffee loaded babe!';
+import jsonData from '../json/data.json'
+window.console.log jsonData

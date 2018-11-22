@@ -2,7 +2,8 @@
 // Getting all necessary loaders and plugins
 
 const path = require( 'path' ),
-  HtmlWebpackPlugin = require( 'html-webpack-plugin' );
+  HtmlWebpackPlugin = require( 'html-webpack-plugin' ),
+  CopyWebpackPlugin = require( 'copy-webpack-plugin' );
 
 module.exports = {
   entry: {
@@ -25,7 +26,7 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          'stylus-loader'          
+          'stylus-loader'
         ]
       }, {
         test: /\.coffee$/,
@@ -36,7 +37,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin( {
       template: './src/index.jade'
-    } )
+    } ),
+    new CopyWebpackPlugin( [
+      { from: './src/images/', to: './images' }
+    ] )
   ]
-
 }

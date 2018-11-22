@@ -1,0 +1,29 @@
+{
+  "chapters": [
+    {
+      "title": "What Is Reality..?",
+      "background": "someFakeBackgroundPath",
+      "parts": [
+        {
+          "title": "My reality is really strange",
+          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete"
+        }, {
+          "title": "My reality PART 2 MLK",
+          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete PART 2"
+        }
+      ]
+    }, {
+      "title": "Enrolation city..?",
+      "background": "someFakeBackgroundPath",
+      "parts": [
+        {
+          "title": "My reality enrolation city",
+          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete"
+        }, {
+          "title": "My reality city of enrolation",
+          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete PART 2 MLK"
+        }
+      ]
+    }
+  ]
+}

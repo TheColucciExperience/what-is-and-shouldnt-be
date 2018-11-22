@@ -1,0 +1,26 @@
+
+// Styles for the chapter boxes
+
+.chapter-box
+  position: fixed
+  z-index: 50
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  display: none
+  flex-flow: column nowrap;
+  justify-content: center
+  align-items: center
+  color: whiteColor
+  background-color: blackColor
+  &--active
+    display: flex
+  &__subtitle
+    margin-bottom: .8rem
+    font: 1.2rem titleFont
+    text-transform: uppercase
+  &__title
+    font: 2rem titleFont
+    @media (min-width: 768px)
+      font-size: 3rem
