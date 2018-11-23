@@ -9,24 +9,8 @@ html(lang='en')
   body
     h1(class="sr-only") What Is And Shouldn't Be
     main(class="js-main")
-      div(class="page-background js-page-background")
-      section(class="intro-box")
+      div(class="page-background js-page-background hidden")
+      section(class="intro-box js-intro-box")
         h2(class="intro-box__title") What Is And Shouldn't Be
-        button(class="btn btn--default btn--outline btn--outline-white" type="button")
-          | read story
-      section(class="chapter-box")
-        h3(class="chapter-box__subtitle") Chapter 1:
-        h2(class="chapter-box__title") What Is Reality..?
-      section(class="part-box")
-        h3(class="part-box__title") My Reality
-        p(class="part-box__text")
-          | My reality is that my life is really strange.
-          | My reality is that my life is really strange.
-          | My reality is that my life is really strange.
-          | My reality is that my life is really strange.
-          | My reality is that my life is really strange.
-          | My reality is that my life is really strange.
-          | My reality is that my life is really strange.
-        button(class="btn btn--default btn--outline btn--outline-white btn--align-end" type="button")
-            | next
-            span(class="btn-icon fas fa-caret-right")
+        button(class="btn btn--default btn--outline btn--outline-white js-sequence-btn" type="button")
+          | read story      

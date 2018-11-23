@@ -4,10 +4,10 @@
 import buildChapter from './build-chapter.coffee'
 
 ###
-This module will init the application return create the necessary DOM components
+This module will init the application and dynamically create the necessary DOM components
 ###
 
-initDOM = (json) ->
+generateDOM = (json) ->
 
   # Object to store chapters in html, chapter count and sequence count
 
@@ -20,7 +20,7 @@ initDOM = (json) ->
 
   chaptersCtrl.html += buildChapter chaptersCtrl, chapter for chapter in json.chapters
 
-  window.console.log chaptersCtrl.html
+  return chaptersCtrl.html
 
 
-export default initDOM
+export default generateDOM

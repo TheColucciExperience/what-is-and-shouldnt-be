@@ -11,7 +11,7 @@ buildChapter = (chaptersCtrl, chapter) ->
 
   chapterJade =
     """
-      section(class='chapter-box' data-sequence='#{ chaptersCtrl.sequenceCount }' data-type='chapter' data-bg='#{ chapter.background }')
+      section(class='chapter-box hidden' data-sequence='#{ chaptersCtrl.sequenceCount }' data-type='chapter' data-bg='#{ chapter.background }')
         h3(class='chapter-box__subtitle') Chapter #{ chaptersCtrl.chapterCount }:
         h2(class='chapter-box__title') #{ chapter.title }
     """
@@ -20,13 +20,20 @@ buildChapter = (chaptersCtrl, chapter) ->
 
   chaptersCtrl.sequenceCount++
 
+  ###
+    Function to generate parts. We declare it here to avoid the inconvenience
+    of passing extra variables as dependencies, by using the ones in the current
+    scope.
+  ###
+
   generateParts = (part, i) ->
     partJade =
       """
-        section(class='part-box')
+        \n
+        section(class='part-box js-part-box hidden' data-sequence='#{ chaptersCtrl.sequenceCount }' data-type='part')
           h3(class='part-box__title') #{ chapter.parts[i].title }
           p(class='part-box__text') #{ chapter.parts[i].text }
-          button(class='btn btn--default btn--outline btn--outline-white btn--align-end js-part-btn' type='button' data-sequence='#{ chaptersCtrl.sequenceCount }' data-type='part')
+          button(class='btn btn--default btn--outline btn--outline-white btn--align-end js-sequence-btn' type='button')
               | next
               span(class='btn-icon fas fa-caret-right')
       """
@@ -35,21 +42,13 @@ buildChapter = (chaptersCtrl, chapter) ->
 
   chapterJade += generateParts part, i for part, i in chapter.parts
 
-  ###
-    Function to generate parts. We declare it here to avoid the inconvenience
-    of passing extra variables as dependencies, by using the ones in the current
-    scope.
-  ###
-
-
-
   # Updating chapters count
 
   chaptersCtrl.chapterCount++
 
   # Returning chapter html
 
-  return chapterJade
+  return jade.render chapterJade
 
 
 export default buildChapter
