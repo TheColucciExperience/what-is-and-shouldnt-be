@@ -1,27 +1,30 @@
 {
   "chapters": [
     {
-      "title": "What Is Reality..? ROLA ROLA ROLA ROLA",
-      "background": "./images/nature-sky-sunny-125457.jpg",
+      "title": "It Was All A Dream",
+      "background": "./images/chapter-dream.jpg",
       "parts": [
         {
-          "title": "My reality is really strange",
-          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog leteSome crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete"
+          "title": "Reality, After All",
+          "text": "Ever had that feeling that the moments that make your life are nothing but empty memories? That, no matter what happens, good things or bad things, in the end, they don't really matter? Well, that's how I feel everyday."
         }, {
-          "title": "My reality PART 2 MLK AMSDLKASLDKJASDLKJ",
-          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete PART 2 Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete"
+          "title": "A Character For You",
+          "text": "You might be wondering who the hell am I. After all, people have the need to identify themselves in others, maybe not to feel alone. What I really want you to do is focus on the ideas, and not on the people, but I'll give you a character, if that's what you need."
+        }, {
+          "title": "Lonely Boy",
+          "text": "Here it is. A lonely boy. A somewhat typical lonely boy. He talks to people, he works, goes to the gym. But he can't really connect to others. He don't understand why people struggle to solve problems they themselves create. He's a misfit."
         }
       ]
     }, {
-      "title": "Enrolation city..?",
-      "background": "./images/nature-sky-sunny-125457.jpg",
+      "title": "Rainy Days",
+      "background": "./images/chapter-rain.jpg",
       "parts": [
         {
-          "title": "My reality enrolation city",
-          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete"
+          "title": "Naive Dream",
+          "text": "This boy had a conflict. One side of his personality wanted to be like the others. Have a common life, make mistakes, love, hate, be human after all. Living for the day, but not limited to it. The other side, however, wanted to make a change. To see the world a better place, with justice and opportunities for everyone. Naive Dream."
         }, {
-          "title": "My reality city of enrolation",
-          "text": "Some crazy text aricanduva miau pchiu pchiu shiryu lambda ramon seco lento trakinas loko dog lete PART 2 MLK"
+          "title": "The Outshined",
+          "text": "So he tried to find his meaning. The meaning of his life, of his heartbeats, of his toughts. Everything has a meaning. That's how life's ought to be. Else, what's the purpose. And so, one day he simply found it. And it was a girl. Helena was her name. She wasn't extremely beautiful, but the way she talked, her expressions, her movements. He was in love. Or so he tought."
         }
       ]
     }
