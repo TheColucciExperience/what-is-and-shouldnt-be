@@ -27,10 +27,31 @@ buildChapter = (chaptersCtrl, chapter) ->
   ###
 
   generateParts = (part, i) ->
+
+    ###
+      We'll dynamically generate a random left and top position for the part box
+      based on the viewport width
+    ###
+
+    viewportWidth = window.innerWidth
+
+    switch true
+      when viewportWidth < 576 then maxLeftPos = 10
+      when viewportWidth < 768 then maxLeftPos = 20
+      when viewportWidth < 992 then maxLeftPos = 30
+      when viewportWidth < 1200 then maxLeftPos = 40
+      else maxLeftPos = 50
+
+    # Generating a random left and top position based on the min and max boundaries
+
+    randomLeft = ( Math.floor Math.random() * (maxLeftPos - 10) ) + 10
+    randomTop = ( Math.floor Math.random() * 10 ) + 10
+
     partJade =
       """
         \n
-        section(class='part-box js-part-box hidden' data-sequence='#{ chaptersCtrl.sequenceCount }' data-type='part')
+        section(class='part-box js-part-box hidden' data-sequence='#{ chaptersCtrl.sequenceCount }'
+                data-type='part' style='left: #{ randomLeft }vw; top: #{ randomTop }vh')
           h3(class='part-box__title') #{ chapter.parts[i].title }
           p(class='part-box__text') #{ chapter.parts[i].text }
           button(class='btn btn--default btn--outline btn--outline-white btn--align-end js-sequence-btn' type='button')
@@ -38,7 +59,10 @@ buildChapter = (chaptersCtrl, chapter) ->
               span(class='btn-icon fas fa-caret-right')
       """
     chaptersCtrl.sequenceCount++
+
     return partJade
+
+  # Adding the part template to the chapter one
 
   chapterJade += generateParts part, i for part, i in chapter.parts
 
