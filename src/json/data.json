@@ -21,10 +21,46 @@
       "parts": [
         {
           "title": "Naive Dream",
-          "text": "This boy had a conflict. One side of his personality wanted to be like the others. Have a common life, make mistakes, love, hate, be human after all. Living for the day, but not limited to it. The other side, however, wanted to make a change. To see the world a better place, with justice and opportunities for everyone. Naive Dream."
+          "text": "This boy had a conflict. One side of his personality wanted to be like the others. Have a common life, make mistakes, love, hate, be human after all. Living for the day, but not limited to it. The other side, however, wanted to make a change. To see the world a better place, with justice and opportunities for everyone. Naive dream."
         }, {
           "title": "The Outshined",
-          "text": "So he tried to find his meaning. The meaning of his life, of his heartbeats, of his toughts. Everything has a meaning. That's how life's ought to be. Else, what's the purpose. And so, one day he simply found it. And it was a girl. Helena was her name. She wasn't extremely beautiful, but the way she talked, her expressions, her movements. He was in love. Or so he tought."
+          "text": "So he tried to find his meaning. The meaning of his life, of his heartbeats, of his toughts. Everything has a meaning. That's how life's ought to be. Else, what's the purpose ? And so, one day he simply found it. And it was a girl. Helena was her name. She wasn't extremely beautiful, but the way she talked, her expressions, her movements... He was in love. Or so he tought."
+        }, {
+          "title": "To Love, To Hate",
+          "text": "She was perfect for him. Well, almost. She had a boyfriend. He was nothing special. Just someone who saw a beautiful face and decided to stick with it. It was a relationship of years. Our lonely boy was devastated. How could you find someone so perfect for yourself, and not be with this person ? Years of existence, and hardly he could find a girl that would give him feelings. He had lost his meaning."
+        }
+      ]
+    }, {
+      "title": "What Is",
+      "background": "./images/chapter-coffee.jpg",
+      "parts": [
+        {
+          "title": "Reality",
+          "text": "So he had a choice. A choice that would present itself throughout his whole life. To find his meaning in himself or in others ? To believe in destiny or in his efforts ? The rational choice was obvious, but he couldn't stand the possibility of being alone his entire life, even if for his own good. So he cried. He finally understood how cruel and pathetic life could be. He finally understood what was reality."
+        }, {
+          "title": "Choices",
+          "text": "Tears. Emotions. Anger. Sadness. Adrenaline. Inertia. Nothing looked so magical, so outstanding, so intimidating as before. He realized how small people and their problems really are. Nothing was impossible for him. He felt like he could do anything. But why would he do it ? Things didn't have a meaning. But they didn't need to have one, after all, he realized. We need meanings to remind ourselves that our efforts and pain are not in vain. But he didn't care anymore."
+        }, {
+          "title": "Renaissance",
+          "text": "After all his toughts, he realized he had no choice to make. All this time he was just trying to persuade himself that life was like in the movies, with a happy ending, no matter what. He was wating for something to come and save him. But didn't realized that this something was himself. He changed his point of view. He tought of everything glorious he had made in life. And after some time he fell in love again. This time, tough, with himself."
+        }
+      ]
+    }, {
+      "title": "What Shouldn't Be",
+      "background": "./images/chapter-path.jpg",
+      "parts": [
+        {
+          "title": "The Best Bet",
+          "text": "His best bet was to put faith in himself. To believe he had a value. That he realized what few people could: that our dreams may never come true. Our ingested definiton of 'happiness' may never come to reality. And people fake this with stupid shows, fast-food, sex and drugs. They are too scared to face the reality. So instead they let life guide their way, without questioning. These are the so called 'normal people'. He wasn't like that. He was very strange."
+        }, {
+          "title": "Things Are Strange",
+          "text": "One day, a boring one, he tought of everything that could be. What if he was just like the others ? Searching for useless entertainment, easy dopamine, empty meanings ? They looked so calm and happy. Like living in a sweet illusion were people would judge things by it's surface. Nothing more. Sometimes he was envy."
+        }, {
+          "title": "This Is It",
+          "text": "From time to time, our lonely boy started to invest in himself. He learned a lot of things, practiced exercises and decided he would pursue knowledge till the end of times. Not because of some insane search for meaning, for some obligation or anything else. Just because he tought that's how he wanted to live. To learn more about life, about nature and even about people. He learned to admire life with all it's complexity. He learned to act upon what is, and not what should be."
+        }, {
+          "title": "It Never Stops",
+          "text": "The choices we make guide us to where we are now. That's obvious. What most people don't realize is that they are the ones to create their own choices. Our lonely boy was just a character, a model to illustrate the complexities of modern life and human psychology. It could be any of us, all of us. What about you, reader ? Do you make your own choices ? They are only limited to your point of view. Focus on what is, and not on what shouldn't be."
         }
       ]
     }

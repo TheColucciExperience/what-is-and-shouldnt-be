@@ -69,7 +69,7 @@ changeSequence = () ->
 
         # Timeout to allow chapter to display on the screen
 
-        timeoutDelay = if prevSequenceType is 'chapter' then 2000 else 0
+        timeoutDelay = if prevSequenceType is 'chapter' then 4000 else 0
 
         window.setTimeout () ->
 
